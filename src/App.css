@@ -1,0 +1,14 @@
+.newsArticleWraper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.language-button:hover {
+  cursor: pointer;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}

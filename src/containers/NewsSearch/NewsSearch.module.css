@@ -1,0 +1,14 @@
+.inputWraper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.newArticleWraper {
+  margin: 30px;
+  width: 35rem;
+}
+
+.formControl {
+  width: 30%;
+}
