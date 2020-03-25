@@ -54,7 +54,7 @@ export const NewsSearch = () => {
       <div className="newsArticleWraper">
         {articles.map((article, i) => {
           return (
-            <div className={styles.newArticleWraper}>
+            <div className={styles.newArticleWraper} key={`article_${i}`}>
               <NewsArticle
                 key={`article_${i}`}
                 article={article}
